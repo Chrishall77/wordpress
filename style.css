@@ -1,11 +1,11 @@
 /*
  Theme Name:   2016 child Theme
  Author:       John Doe
- Description:  This is the first theme created by John a child theme of WordPress' Twenty 16 theme
+ Description:  This is the first theme created by John a child of the Cosmos - theme of WordPress' Twenty 16 theme
  Template:     twentysixteen
 */
 
-.page-id-44 {
+.home .entry-content, 
+.home .entry-content blockquote   {
 	color: red;
-	background-color: orange;
 }
