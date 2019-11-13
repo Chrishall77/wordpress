@@ -8,6 +8,6 @@ function theme_enqueue_styles() {
 
 //add_filter ('the_title', 'filter_example');
 function filter_example($title) {
-    return 'Pwnd: '.$title;
+    return 'Hooked: '.$title;
 }
 
