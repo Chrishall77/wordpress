@@ -32,6 +32,15 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<div class="entry-content">
+		
+		<?php
+		if ( get_field( 'phone' ) ){  ?>
+			<h2> <?php the_field( 'phone' )?> </h2>
+		<?php } ?>
+
+	</div><!-- .entry-content -->
+
 	<?php
 		edit_post_link(
 			sprintf(
